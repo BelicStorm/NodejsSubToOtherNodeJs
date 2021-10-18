@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "-------- PROD --------------": "",
+    "-------- DEV ---------------": "",
+    "dev": "nodemon --exec babel-node app.js",
+    "-------- BUILD -------------": ""
+  },
+  "dependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "apollo-server": "^3.4.0",
+    "apollo-server-express": "^2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.6.1",
+    "graphql-subscriptions": "^1.2.1",
+    "graphql-ws": "^5.5.0",
+    "helmet": "^4.6.0",
+    "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.13",
+    "websocket-stream": "^5.5.2",
+    "ws": "^8.2.3"
+  }
+}
