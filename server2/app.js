@@ -24,7 +24,6 @@ const init = async () => {
   app.use(router)
   
 
-  // ⚠️ Pay attention to the fact that we are calling `listen` on the http server variable, and not on `app`.
   app.listen(5000, () => {
     console.log(`🚀 Server ready at http://localhost:5000`)
   })
